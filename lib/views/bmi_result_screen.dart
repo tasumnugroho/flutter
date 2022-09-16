@@ -97,7 +97,7 @@ class BmiResultScreen extends StatelessWidget {
                     Column(
                       children: [
                         Text(
-                          // ?? ""=>merupakan fungsi IF (jika bmiCalculator.bmiCategory == null maka  tercetak kosong. Jika tidak maka mengembalikan nilai bmiCalculator.bmiCategory)
+                          // ?? ""=>merupakan fungsi IF (jika bmiCalculator.bmiCategory == null maka tercetak kosong. Jika tidak maka mengembalikan nilai bmiCalculator.bmiCategory)
                           bmiCalculator.bmiCategory ?? "",
                           textAlign: TextAlign.center,
                           style: TextStyle(
