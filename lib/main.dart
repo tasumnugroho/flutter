@@ -1,5 +1,6 @@
 import 'package:bmi_nugro/constants/constant.dart';
 import 'package:bmi_nugro/views/bmi_data_screen.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,6 +15,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         title: 'Flutter Demo',
+        localizationsDelegates: [
+          DefaultMaterialLocalizations.delegate,
+          DefaultCupertinoLocalizations.delegate,
+          DefaultWidgetsLocalizations.delegate,
+        ],
         theme: ThemeData(
           primaryColor: primaryColor,
           scaffoldBackgroundColor: Colors.white,
